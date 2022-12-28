@@ -87,18 +87,6 @@ var ongkirCOD = [
 	{"nama":"Desa G", "harga":"15000"},
 	{"nama":"Desa H", "harga":"16000"},
 	];
-var a;
-var selectCOD = '<option value="default">Pilih Daerah</option>';
-for (a = 0; a < ongkirCOD.length; a++) {
-selectCOD += '<option value="'+ongkirCOD[a].harga+'">'+ongkirCOD[a].nama+'</option>';
-}
-$("#lokasi-cod").html(selectCOD);
-var pilihKurir = "<select id='cek-kurir'>";
-pilihKurir += "<option value='default'>Pilih Kurir</option>";
-pilihKurir += "<option value='cod'>COD</option>";
-pilihKurir += "<option value='delivery'>Delivery</option>";
-pilihKurir += "</select>";
-$("#pilihan-kurir").html(pilihKurir);
 </script>
 <script src="script.js"></script>
   </body>
