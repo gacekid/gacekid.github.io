@@ -251,7 +251,7 @@ border-bottom-right-radius: 13px;
     -webkit-box-orient: vertical;
 }
 .main-produk-container .post .post-meta h2:hover {
-    color: #27AE60;
+    color: #DD2726;
 }
 .main-produk-container .post .post-meta .detail-produk {
     -webkit-box-align: center;
@@ -272,7 +272,7 @@ border-bottom-right-radius: 13px;
     height: 30px;
     line-height: 30px;
     padding: 0;
-    background: #27AE60;
+    background:#DD2726;
     color: #ffffff;
     font-weight: 600;
     cursor: pointer;
