@@ -64,8 +64,6 @@ nav p {
 
 
 
-
-
 .wrapper{
   max-width: 100%;
   margin: 70px auto;
@@ -148,11 +146,6 @@ nav p {
   color: #000;
   cursor: pointer;
 }
-
-
-
-
-
 
 
 
@@ -257,7 +250,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-	
 	
 	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
 }
@@ -674,8 +666,6 @@ efefef
 
 
 
-
-
 #navbar1 {
 		height:60px;
 		position: fixed;
@@ -719,8 +709,6 @@ margin-top:-30px;
 }
 
 
-
-
 /* CSS Multiple Whatsapp Chat */ #whatsapp-chat{position:fixed;
 background:#dde1e7;
 box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
@@ -760,8 +748,6 @@ right:5%;font-size:80%}}
 .show{display:block;
 animation-name:showhide;
 animation-duration:1.5s;transform:scale(1);opacity:1} 
-
-
 
 
 .container981 {
@@ -813,7 +799,6 @@ a.popup-link7:hover { display: block;
 
 box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
 	}
-
 
 
 	/* end link popup*/
@@ -945,10 +930,6 @@ element.style {
 }
    
 
-    
-    
-
-
 	    /* Item Produk */
 .item-data-produk .itemRow {
     position: relative;
@@ -987,7 +968,7 @@ element.style {
       				 
         <a href="" target="_blank" hidden></a>
        
-        <input type="text" style="margin-left:30px" placeholder="Search your daily Grocery food ...">
+        <input type="text" style="margin-left:30px" placeholder="Ketik apa yang mau dicari...">
         
         <div class="autocom-box">
           <!-- here list are inserted from javascript -->
@@ -1068,7 +1049,7 @@ element.style {
 <!-- Info Contact Start --> <a class='informasi' href='javascript:void' title='Chat Whatsapp'> <div class='info-avatar'><img src='https://2.bp.blogspot.com/-y6xNA_8TpFo/XXWzkdYk0MI/AAAAAAAAA5s/RCzTBJ_FbMwVt5AEZKekwQqiDNqdNQJjgCLcBGAs/s70/supportmale.png'/></div> <div class='info-chat'> <span class='chat-label'>Info and Support</span> <span class='chat-nama'>Customer 1</span> </div><span class='my-number'>6281909081005</span> </a> <!-- Info Contact End --> 
 
 <!-- Info Contact Start --> 
-<a class='informasi' href='javascript:void' title='Chat Whatsapp'> <div class='info-avatar'><img src='https://4.bp.blogspot.com/-X1Xs2iRKabY/XXWzkqQ-iDI/AAAAAAAAA5w/HSyhR0gIXvUzlAx5XgaZzmlrCJkTgrOFQCLcBGAs/s70/supportfemale.png'/></div> <div class='info-chat'> <span class='chat-label'>Sales Representative</span> <span class='chat-nama'>Customer 2</span> </div><span class='my-number'>6281909081005</span> </a> <!-- Info Contact End --> <div class='blanter-msg'>Hubungi kami di <b>+6281909081005</b> dari jam <i>14:00WIB - 05:00WIB</i></div></div> <div class='start-chat hide'> <div class='first-msg'><span>Hello! Ada yang bisa kami bantu? </span></div> <div class='blanter-msg'><textarea id='chat-input' placeholder ='Ketik sesuatu disini' maxlength='120' row='1'></textarea> 
+<a class='informasi' href='javascript:void' title='Chat Whatsapp'> <div class='info-avatar'><img src='https://4.bp.blogspot.com/-X1Xs2iRKabY/XXWzkqQ-iDI/AAAAAAAAA5w/HSyhR0gIXvUzlAx5XgaZzmlrCJkTgrOFQCLcBGAs/s70/supportfemale.png'/></div> <div class='info-chat'> <span class='chat-label'>Sales Representative</span> <span class='chat-nama'>Customer 2</span> </div><span class='my-number'>6281909081005</span> </a> <!-- Info Contact End --> <div class='blanter-msg'>Hubungi kami di <b>+6281909081005</b> dari jam <i>14:00 WITA - 05:00 WITA</i></div></div> <div class='start-chat hide'> <div class='first-msg'><span>Hello! Ada yang bisa kami bantu? </span></div> <div class='blanter-msg'><textarea id='chat-input' placeholder ='Ketik sesuatu di sini' maxlength='120' row='1'></textarea> 
 
  <a href='https://api.whatsapp.com/send?phone=6281909081005;' id='send-it'>Kirim</a></div></div> 
 
@@ -1206,7 +1187,7 @@ let suggestions = [
     });  
 </script>
 <script type='text/javascript'> $(document).on("click","#send-it",function(){var a=document.getElementById("chat-input");if(""!=a.value){var b=$("#get-number").text(),c=document.getElementById("chat-input").value,d="https://api.whatsapp.com/send",e=b,f="&text="+c;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))var d="whatsapp://send";var g=d+"?phone="+e+f;window.open(g, '_blank')}}),$(document).on("click",".informasi",function(){document.getElementById("get-number").innerHTML=$(this).children(".my-number").text(),$(".start-chat,.get-new").addClass("show").removeClass("hide"),$(".home-chat,.head-home").addClass("hide").removeClass("show"),document.getElementById("get-nama").innerHTML=$(this).children(".info-chat").children(".chat-nama").text(),document.getElementById("get-label").innerHTML=$(this).children(".info-chat").children(".chat-label").text()}),$(document).on("click",".close-chat",function(){$("#whatsapp-chat").addClass("hide").removeClass("show")}),$(document).on("click",".blantershow-chat",function(){$("#whatsapp-chat").addClass("show").removeClass("hide")}); </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"></script>
+<script src=""></script>
 <script src="script-cod.js"></script>
 						<script src="script.js"></script>
 </body>
